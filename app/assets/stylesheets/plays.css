@@ -1,0 +1,44 @@
+h1 {
+  color: red;
+}
+.scrum {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
+.ruck {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+.myarrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: rotate(110deg);
+}
+.line {
+  border-right: 0.2rem dashed red;
+  display: inline-block;
+  height: 5rem;
+}
+.arrow {
+  position: absolute;
+  top: -0.3rem;
+  bottom: 0;
+  height: 1rem;
+  border-right: 0.2rem solid red;
+  display: inline-block;
+}
+.right {
+  left: 0.3rem;
+  transform: rotate(-45deg);
+}
+.left {
+  right: 0.3rem;
+  transform: rotate(45deg);
+}
